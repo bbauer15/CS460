@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blake Bauer HW1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- W3Schools for navbar stuff -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> 
+                    <span class="icon-bar"></span>   
+                    <span class="icon-bar"></span>     
+                    <span class="icon-bar"></span>         
+                </button>
+                <a class="navbar-brand" href="home.html" style="font-size: 24pt;">B<sup>2</sup></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                 <ul class="nav navbar-nav">
+                    <li><a href="direct.html">Direct Proofs</a></li>
+                    <li><a href="cases.html">Proof by Cases</a></li>
+                    <li class="active"><a href="contradiction.html">Proof by Contradiction</a></li>
+                    <li><a href="induction.html">Proof by Induction</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Proof by Contradiction</h2>
+        <p>Proof by Contradiction is very similar to a direct proof. But, instead we try to prove a proposition false to (hopefully) derive some false statement like <equ>1=0</equ> showing the proposition could never be false and hence it is true.</p>
+        <h3>Example:</h3>
+        <p>
+            Prove that <equ>6n+20m &#8800; 49</equ> for any two integers <equ>n</equ>,<equ>m</equ>.
+        </p>
+        <p>
+            Proving this can be a bit tricky. Testing every two integers is impossible. It could be done by giving a statement about the left side being even and the right being odd; but that proof could be a bit elusive. But, showing that <equ>6n+20m = 49</equ> is impossible is much more straight forward.
+        </p>
+        <h3>Proof:</h3>
+        <p>
+            Suppose, by way of contradiction, the <equ>m</equ> and <equ>n</equ> are integers that satisfy <equ>6n+20m=49</equ>. We can factor a 2 out of the left hand side to yield <equ>6n+20m=2*(3n+10m)=49</equ>. We then divide by 2 to have <equ>3n+10m=24.5</equ>. However, <equ>3n+10m</equ> is an integer and 24.5 is not therefore we have derived a false statement. This shows that <equ>6n+20m=49</equ> can never be true and thus <equ>6n+20m &#8800; 49</equ> for all integers.
+        </p>
+    </div>
+
+</body>
+
+</html>
