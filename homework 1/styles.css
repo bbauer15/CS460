@@ -23,3 +23,7 @@ dt {
 equ {
     font-family: monospace;
 }
+
+center {
+    font-size: 16pt
+}
