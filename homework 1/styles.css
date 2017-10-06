@@ -1,0 +1,25 @@
+.container {
+    border: 2px solid white;
+    background: #f5f5f5;
+}
+
+p {
+    font-size: 14pt;
+    text-indent: 20pt;
+}
+
+dl {
+    font-size: 14pt;
+}
+
+dl dd{
+    text-indent: 20pt;
+}
+
+dt {
+    padding-top: 10pt
+}
+
+equ {
+    font-family: monospace;
+}
