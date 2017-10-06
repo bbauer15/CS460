@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blake Bauer HW1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- W3Schools for navbar stuff -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> 
+                    <span class="icon-bar"></span>   
+                    <span class="icon-bar"></span>     
+                    <span class="icon-bar"></span>         
+                </button>
+                <a class="navbar-brand" href="home.html" style="font-size: 24pt;">B<sup>2</sup></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="direct.html">Direct Proofs</a></li>
+                    <li class="active"><a href="cases.html">Proof by Cases</a></li>
+                    <li><a href="contradiction.html">Proof by Contradiction</a></li>
+                    <li><a href="induction.html">Proof by Induction</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Proof by Cases</h2>
+        <p>
+            Proof by Cases is the concept of splitting a statement into parts to make it simpler to prove. Its analogous to a divide and conquer strategy. Each case can be proven with varying methods and sometimes could differ between the cases.
+        </p>
+        <h3>Example:</h3>
+        <p>
+            Prove that for all integers, <equ>n<sup>2</sup> + 5n</equ> is even.
+        </p>
+        <h3>Proof:</h3>
+        <p>Odd and even integers behave differently with respect to what the result is. So, we have to separate this into two cases: even integers and odd integers. Since, every integer is either even or odd this will satisfy our proposition.</p>   
+        <row>
+            <div class="col-md-6">
+                <h4>Case 1:</h4>
+                <p>
+                    Suppose <equ>n</equ> is even. Theorem 1 tells us that <equ>n<sup>2</sup></equ> is even. With 5 being odd and <equ>n</equ> being even Theorem 1 tells us <equ>5*n</equ> is even. Thus, <equ>n<sup>2</sup> + 5*n</equ> is even, by Theorem 1.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h4>Case 2:</h4>
+                <p>
+                    Suppose <equ>n</equ> is odd. By Theorem 1, <equ>n<sup>2</sup></equ> is odd. With <equ>n</equ> and 5 being odd, Theorem 1 tells us <equ>5*n</equ> is also odd. Therefore, <equ>n<sup>2</sup> + 5*n</equ> is even, by Theorem 1.
+                </p>
+            </div>
+        </row>
+        <p>
+            Thus we have shown that if n is odd or even <equ>n<sup>2</sup> + 5*n</equ> is even. So, our proposition is true.
+        </p>
+    </div>
+
+</body>
+
+</html>
