@@ -16,15 +16,15 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> 
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1"> 
                     <span class="icon-bar"></span>   
                     <span class="icon-bar"></span>     
                     <span class="icon-bar"></span>         
                 </button>
-                <a class="navbar-brand" href="home.html" style="font-size: 24pt;">B<sup>2</sup></a>
+                <a id="logo" class="navbar-brand" href="home.html">B<sup>2</sup></a>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                 <ul class="nav navbar-nav">
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="nav navbar-nav">
                     <li><a href="direct.html">Direct Proofs</a></li>
                     <li><a href="cases.html">Proof by Cases</a></li>
                     <li class="active"><a href="contradiction.html">Proof by Contradiction</a></li>
@@ -44,7 +44,7 @@
         <p>
             Proving this can be a bit tricky. Testing every two integers is impossible. It could be done by giving a statement about the left side being even and the right being odd; but that proof could be a bit elusive. But, showing that <equ>6n+20m = 49</equ> is impossible is much more straight forward.
         </p>
-        <h3>Proof:</h3>
+        <h4>Proof:</h4>
         <p>
             Suppose, by way of contradiction, the <equ>m</equ> and <equ>n</equ> are integers that satisfy <equ>6n+20m=49</equ>. We can factor a 2 out of the left hand side to yield <equ>6n+20m=2*(3n+10m)=49</equ>. We then divide by 2 to have <equ>3n+10m=24.5</equ>. However, <equ>3n+10m</equ> is an integer and 24.5 is not therefore we have derived a false statement. This shows that <equ>6n+20m=49</equ> can never be true and thus <equ>6n+20m &#8800; 49</equ> for all integers.
         </p>
