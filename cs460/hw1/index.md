@@ -7,8 +7,19 @@ layout: default
 
 This first homework tasked us with developing a small series of webpages that meet a certain criteria using HTML, CSS, and BootStrap. At the same time we were to use git through the command line to commit to a repo regularly. 
 - The assignment page is [here](http://www.wou.edu/~morses/classes/cs46x/assignments/HW1.html).
-- The completed assignment can be found [here]().
-- Repo is [here]().
+- The completed assignment can be found [here](http://www.wou.edu/~bbauer15/cs460/homework%201/home.html).
+- Repo is [here](https://bitbucket.org/blakebauer/cs460/).
+
+Resources:
++ [W3Schools](https://www.w3schools.com/)
++ HTML CSS and JS interactive cheat sheets [here](http://html-css-js.com/)
+
+Table of contents:
++ [Git](#Git:)
++ [HTML](#HTML:)
++ [CSS](#CSS:)
++ [Bootstrap](#Bootstrap:)
++ [The Assignment](#The Assignment:)
 
 ### Git:
 
@@ -162,7 +173,7 @@ div {
 
 The more specific a selector, the higher the precedence.
 
-### Bootstrap
+### Bootstrap:
 
 Bootstrap is a libary used for created very nice looking webpages easily and quickly.
 
@@ -247,7 +258,7 @@ NavBars come in many different shapes and looks. A simple example:
 ```
 When this navbar gets to small it hides the items into a collapsable menu that opens with a button!
 
-### The Assignment
+### The Assignment:
 For the assignment I used an old assignment I had from Math 280 Introduction To Proofs where we had to write a paper on the different forms of mathematical proofs. I took that assignment and made it into a website. I have 5 pages in total: Home, Direct Proofs, Proof by Cases, Proof by Contradiction, and Proof by Induction.
 
 The website has a nice looking navbar the code is not much different from the example above.
