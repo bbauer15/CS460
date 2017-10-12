@@ -15,11 +15,11 @@ Resources:
 + HTML CSS and JS interactive cheat sheets [here](http://html-css-js.com/)
 
 Table of contents:
-+ [Git](#Git:)
-+ [HTML](#HTML:)
-+ [CSS](#CSS:)
-+ [Bootstrap](#Bootstrap:)
-+ [The Assignment](#The Assignment:)
++ [Git](#git)
++ [HTML](#html)
++ [CSS](#css)
++ [Bootstrap](#bootstrap)
++ [The Assignment](#the-assignment)
 
 ### Git:
 
