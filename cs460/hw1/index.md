@@ -259,7 +259,9 @@ NavBars come in many different shapes and looks. A simple example:
 When this navbar gets to small it hides the items into a collapsable menu that opens with a button!
 
 ### The Assignment:
-For the assignment I used an old assignment I had from Math 280 Introduction To Proofs where we had to write a paper on the different forms of mathematical proofs. I took that assignment and made it into a website. I have 5 pages in total: Home, Direct Proofs, Proof by Cases, Proof by Contradiction, and Proof by Induction.
+The completed assignment can be found [here](http://www.wou.edu/~bbauer15/cs460/homework%201/home.html).
+
+For the assignment I took an old assignment I had from Math 280 Introduction To Proofs where we had to write a paper on the different forms of mathematical proofs. I took that assignment and made it into a website. I have 5 pages in total: Home, Direct Proofs, Proof by Cases, Proof by Contradiction, and Proof by Induction.
 
 The website has a nice looking navbar the code is not much different from the example above.
 ```html
