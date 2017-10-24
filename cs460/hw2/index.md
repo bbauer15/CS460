@@ -16,7 +16,7 @@ Resources:
 
 Table of contents:
 + [JavaScript](#javascript)
-+ [CSS](#jquery)
++ [JQuery](#jquery)
 + [The Assignment](#the-assignment)
 
 ### JavaScript:

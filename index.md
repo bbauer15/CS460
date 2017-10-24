@@ -23,6 +23,7 @@ In order to graduate Western a senior project course must be taken. It is requir
 
 1. [Homework 1](cs460/hw1): Git, HTML, CSS, and Bootstrap
 2. [Homework 2](cs460/hw2): JavaScript, JQuery
+3. [Homework 3](cs460/hw3): C#
 
 ### Resources:
 
