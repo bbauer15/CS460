@@ -21,11 +21,12 @@ In order to graduate Western a senior project course must be taken. It is requir
 
 ### CS460 Assignments:
 
-1. [Homework 1](cs460/hw1): Git, HTML, CSS, and Bootstrap
-2. [Homework 2](cs460/hw2): JavaScript, JQuery
-3. [Homework 3](cs460/hw3): C#
-4. [Homework 4](cs460/hw4): ASP.net MVC
-5. [Homework 5](cs460/hw5): ASP.net MVC with Database
+1. [Assignment 1](cs460/hw1): Git, HTML, CSS, and Bootstrap
+2. [Assignment 2](cs460/hw2): JavaScript, JQuery
+3. [Assignment 3](cs460/hw3): C#
+4. [Assignment 4](cs460/hw4): ASP.net MVC
+5. [Assignment 5](cs460/hw5): ASP.net MVC with Database
+6. [Assignment 6](cs460/hw6): ASP.net MVC with Big Database
 
 ### Resources:
 

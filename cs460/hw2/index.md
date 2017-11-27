@@ -1,9 +1,9 @@
 ---
-title: Homework 2
+title: Assignment 2
 layout: default
 ---
 
-## Homework 2: JavaScript, JQuery
+## Assignment 2: JavaScript, JQuery
 
 This assignment assigned us with the task of creating a webpage that takes user input and changes the page in some way using the input.
 - The assignment page is [here](http://www.wou.edu/~morses/classes/cs46x/assignments/HW2.html).

@@ -1,9 +1,9 @@
 ---
-title: Homework 3
+title: Assignment 3
 layout: default
 ---
 
-## Homework 3: C#
+## Assignment 3: C#
 
 [Back](../../)
 

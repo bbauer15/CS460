@@ -1,9 +1,9 @@
 ---
-title: Homework 5
+title: Assignment 5
 layout: default
 ---
 
-## Homework 5: MVC App with Simple Database
+## Assignment 5: MVC App with Simple Database
 
 [Back](../../)
 

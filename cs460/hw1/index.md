@@ -1,9 +1,9 @@
 ---
-title: Homework 1
+title: Assignment 1
 layout: default
 ---
 
-## Homework 1: Git, HTML, CSS, BootStrap
+## Assignment 1: Git, HTML, CSS, BootStrap
 
 This first homework tasked us with developing a small series of webpages that meet a certain criteria using HTML, CSS, and BootStrap. At the same time we were to use git through the command line to commit to a repo regularly. 
 - The assignment page is [here](http://www.wou.edu/~morses/classes/cs46x/assignments/HW1.html).

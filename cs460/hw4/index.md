@@ -1,9 +1,9 @@
 ---
-title: Homework 4
+title: Assignment 4
 layout: default
 ---
 
-## Homework 4: ASP.net MVC
+## Assignment 4: ASP.net MVC
 
 [Back](../../)
 
