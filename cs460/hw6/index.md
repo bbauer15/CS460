@@ -12,14 +12,10 @@ This assignment gave us the task of taking the AdventureWorks database from Micr
 - Repo containing the completed assignment is [here](https://bitbucket.org/blakebauer/cs460/).
 
 Table of Contents:
-+ [SQL Database](#sql-database)
 + [Category Selection](#category-selection)
 + [Browse](#browse)
 + [Details](#details)
 + [Add Review](#add-review)
-
-### Sql Database
-Step one for this assignment was to hook up a database and make Model classes for each of the tables we needed to use. Fortunately there is a way to auto-generate model class is Visual Studio.
 
 ### Category Selection
 First, the user has to select the sub-category they wish to browse. Originally I had made two pages, one to select the category and then one to select the subcategory. After some thought, I decided that was lame and made it into one page.
