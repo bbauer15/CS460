@@ -1,5 +1,5 @@
 ---
-title: Assignment 6
+title: Assignment 7
 layout: default
 ---
 
@@ -8,7 +8,7 @@ layout: default
 [Back](../../)
 
 We are given the task of creating a dynamic webpages using ajax to request images from giphy's api and log all the requests we make into a database. 
-- The assignment page is [here](http://www.wou.edu/~morses/classes/cs46x/assignments/HW6.html).
+- The assignment page is [here](http://www.wou.edu/~morses/classes/cs46x/assignments/HW7.html).
 - Repo containing the completed assignment is [here](https://bitbucket.org/blakebauer/cs460/).
 
 Table of Contents:

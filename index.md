@@ -28,6 +28,7 @@ In order to graduate Western a senior project course must be taken. It is requir
 5. [Assignment 5](cs460/hw5): ASP.net MVC with Database
 6. [Assignment 6](cs460/hw6): ASP.net MVC with Big Database
 7. [Assignment 7](cs460/hw7): AJAX and Restful
+8. [Assignment 7](cs460/hw8): ASP.net MVC DIY Relational Database with AJAX
 
 ### Resources:
 
